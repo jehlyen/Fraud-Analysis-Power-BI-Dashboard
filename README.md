@@ -1,16 +1,25 @@
 # Fraud Risk Analysis Power BI Dashboard
 ## Jehlyen Fuller | Excel | SQL | Power BI
 
-Raw Data
+## Raw Data
 <img width="1363" height="279" alt="Raw_Data" src="https://github.com/user-attachments/assets/3c402b34-a695-4e2a-974e-ced3a280074e" />
 
-Cleaned Daa
+## Cleaned Daa
 <img width="1363" height="277" alt="Cleaned_Data" src="https://github.com/user-attachments/assets/f14251fc-f2f1-4b46-b9cd-7c6bd0cccdfc" />
-
 
 The cleaned dataset was imported into **Power BI** to create an interactive fraud analysis dashboard.
 
 The dashboard was designed to provide both a high-level overview of fraud activity and the ability to drill into specific risk factors through interactive filters.
+
+## SQL Queries
+<img width="748" height="399" alt="SQL_Query1" src="https://github.com/user-attachments/assets/adbbb9b0-a7f0-4800-a7d7-a8bf0f490dd6" />
+
+- Used **CTEs** to organize multi-step data transformations.
+- Used **CASE statements** to categorize transactions and create age groups.
+- Used **aggregate functions** such as `SUM()` to calculate fraud and non-fraud totals.
+- Used **window functions** with `OVER()` to calculate totals while retaining transaction-level data.
+- Created a **SQL View** to store the transformed analysis for reuse in Power BI.
+- Used SQL to create meaningful **fraud risk segments** for further analysis and visualization.
 
 ### Dashboard Features
 
